@@ -62,3 +62,7 @@ model.fit(X, y,
           epochs=50,
           validation_split=0.3,
           callbacks=[tensorboard])
+
+
+%load_ext tensorboard
+%tensorboard --logdir logs
